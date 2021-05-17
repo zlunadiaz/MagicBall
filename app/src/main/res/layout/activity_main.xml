@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/conoce_tu_futuro"
+        android:text="Bola mágica del clima"
         android:textColor="#6633FF"
         android:textSize="30sp"
         android:textStyle="bold|italic"
@@ -23,17 +23,17 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:textSize="24sp"
-        android:hint="@string/escribe_tu_mensaje"
+        android:hint="Escribe el día y presiona la imagen"
         android:inputType="textShortMessage"/>
 
     <ImageButton
         android:id="@+id/btn"
-        android:layout_width="333dp"
-        android:layout_height="298dp"
+        android:layout_width="400dp"
+        android:layout_height="234dp"
         android:layout_gravity="center"
-        android:layout_weight="400"
         android:layout_margin="30dp"
-        android:src="@drawable/boladecristal"/>
+        android:layout_weight="50"
+        android:background="@drawable/clima"/>
 
     <TextView
         android:id="@+id/respuestavista"
